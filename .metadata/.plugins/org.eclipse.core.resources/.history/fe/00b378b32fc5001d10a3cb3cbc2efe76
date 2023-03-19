@@ -1,0 +1,23 @@
+package ex;
+
+public class Class1 {
+public static void main(String[] args) {
+	System.out.println("hello, world");
+	//java
+	/*
+	 * 
+	 * ;;
+	 * 
+	 * 
+	 * 
+	 */
+	
+	while (true)
+	{
+		break;
+	}
+	System.out.println("?");
+	
+}
+}
+
