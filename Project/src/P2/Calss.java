@@ -18,5 +18,17 @@ public static void main(String[] args) {
 	System.out.println(3&3);
 	System.out.println((int)1.0);
 	System.out.println(1.0);
-}
-}
+	
+	int num;
+	num = 1972;
+	System.out.println(num);
+	
+	num -= 1972;
+	num++;
+	System.out.println(num);
+	num--;
+	System.out.println(num);
+	
+	
+	
+}}
