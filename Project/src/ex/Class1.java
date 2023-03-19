@@ -1,0 +1,61 @@
+package ex;
+
+public class Class1 {
+public static void main(String[] args) {
+	System.out.println("hello, world");
+	//java
+	/*
+	 * 
+	 * ;;
+	 * 
+	 * 
+	 * 
+	 */
+	
+	while (true)
+	{
+		break;
+	}
+	System.out.print("?");
+	System.out.println("?\n\n\n\n\n\n");
+	
+	// JAVA
+	String Roblox = "FREE";
+	System.out.printf("%s %s\n", Roblox, Roblox);
+	System.out.println(34-2);
+	
+	int a = 1;
+	double b;
+	String c;
+	char d;
+	boolean e = true;
+	if (e)
+	{ 
+		System.out.println("bback YEE");
+	}
+	
+	System.out.println(a);
+	
+	System.out.printf("Roblox, It's %s!!!!\n", Roblox);
+	
+	System.out.println("1"+"1");
+	
+	a+=1;
+	System.out.println("\n\n\n\n\n"+a);
+	
+	// ;read
+	
+	e = 5 < 3;
+	if(e)
+	{
+		System.out.println("5<3");
+	}
+	e = 1==1;
+	if (e)
+	{
+		System.out.println("e is 1!!!");
+	}
+	
+	
+}}
+
