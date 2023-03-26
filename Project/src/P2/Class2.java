@@ -77,7 +77,7 @@ public static void main(String[] args) {
 		continue;
 	} //civBreak
 	System.out.printf("what..? it was correct;; how you guessed?!! (attemps : %d)\n", attemp);//
-	return;
+	
 	
 	
 }}
