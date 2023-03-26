@@ -15,10 +15,20 @@ public static void main(String[] args) {
             if (command.equals("exit")) {
                 break;
             }
-            //System.out.println("Command entered: " + command);
+            System.out.println("Command entered: " + command);
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
-	
+    
+    
+	for(int i = 1; i <= 10; i++)
+	{
+		if(i%2 == 0)
+		{
+			System.out.println(i);
+		}
+	}
+    
+    
 }}
