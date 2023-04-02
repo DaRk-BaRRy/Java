@@ -18,8 +18,27 @@ public static void main(String[] args) {
 	
 	System.out.println(3^7);
 	System.out.println(ac.m2());
+	
+	AC2 ac2 = new AC2();
+	fu(ac2);
+	
+	
+	
+	
 }
+
+static void fu(AC2 ac)
+{
+	ac.v("idk");
+	System.out.println(ac.v());
 }
+
+
+
+}
+
+
+
 
 class AC
 {
@@ -33,7 +52,6 @@ class AC
 	void m1()
 	{
 		System.out.println("only for code recycle");
-		// bytecode encoder
 	}
 	int m2()
 	{
@@ -41,10 +59,9 @@ class AC
 	}
 }
 
-
 class AC2
 {
-	String w = "";
+	private String w = "";
 	String v()
 	{
 		//code here
@@ -57,7 +74,15 @@ class AC2
 		return;
 	}
 	
+	//only for usage
+	
 	
 	
 }
+
+
+
+
+
+
 
