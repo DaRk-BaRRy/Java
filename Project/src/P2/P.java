@@ -6,8 +6,6 @@ public static void main(String[] args) {
 	HumanView.info(h);
 	
 	
-	
-	
 }}
 
 class Human
