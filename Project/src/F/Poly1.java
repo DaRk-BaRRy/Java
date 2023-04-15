@@ -1,4 +1,3 @@
-
 package F;
 import java.util.Scanner;
 
