@@ -33,7 +33,7 @@ class rand
 		
 		var r = new Random();
 		int a = r.nextInt(10) * 1000;
-		if(print)
+		if(print) 
 			System.out.println(a);
 		
 		return  a;
