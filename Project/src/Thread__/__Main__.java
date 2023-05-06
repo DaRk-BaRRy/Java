@@ -9,7 +9,7 @@ public static void main(String[] args) throws InterruptedException {
 	var T2 = new T2__();
 	T1.start();
 	T2.start();
-	
+	//synapse has been died! << 
 	
 }
 }
@@ -19,16 +19,24 @@ class Threading__ extends Thread
 {
 	public void run()
 	{
-		while(true)
-		{
-			System.out.println("A");
-			try {
-				sleep(1000);
-			} catch (InterruptedException e) {
+		synchronized (this) {
+			
+			
+			while(true)
+			{
+				System.out.println("A");
+				try {
+					sleep(1000);
+				} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
+				}
 			}
 		}
+		
+		
+		
+		
 		
 	}
 }
