@@ -13,5 +13,22 @@ public static void main(String[] args) {
 		System.out.println(yee);
 		System.out.println(hm.get(yee));
 	}
+	
+	var scan = new Scanner(System.in);
+	var D = new Dic();
+	String w1 = "", w2 = "", t = "";
+
+	hm.put(1, "SCARA");
+	// hm.remove();
+	// hm.containsValue()
+	
+	
+	
 }
+}
+
+
+class Dic
+{
+	private Map<String, String> map;
 }
